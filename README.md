@@ -1,10 +1,7 @@
 # React + Vite
 
-<<<<<<< HEAD
-=======
 URL = https://as-gemini-ai.vercel.app/
 
->>>>>>> cfa4035e74a119864e9e10ce535155730bab1a4b
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
