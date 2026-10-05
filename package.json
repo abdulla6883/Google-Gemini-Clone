@@ -10,11 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@google/generative-ai": "^0.24.1",
-=======
-    "@google/generative-ai": "^0.21.0",
->>>>>>> cfa4035e74a119864e9e10ce535155730bab1a4b
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

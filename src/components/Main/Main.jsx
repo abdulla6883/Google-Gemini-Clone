@@ -7,15 +7,12 @@ const Main = () => {
 
   const {onSent,recentPrompt,showResult,loading,resultData,input,setInput} = useContext(Context)
 
-<<<<<<< HEAD
   const handleKeyPress = (e) => {
     if (e.key === 'Enter' && input.trim()) {
       onSent()
     }
   }
 
-=======
->>>>>>> cfa4035e74a119864e9e10ce535155730bab1a4b
   return (
     <div className='main'>
         <div className="nav">
@@ -75,7 +72,6 @@ const Main = () => {
 
             <div className="main-bottom">
               <div className="search-box">
-<<<<<<< HEAD
                 <input
                   onChange={(e) => setInput(e.target.value)}
                   onKeyPress={handleKeyPress}
@@ -83,9 +79,6 @@ const Main = () => {
                   type="text"
                   placeholder='Enter a prompt here'
                 />
-=======
-                <input onChange={(e) => setInput(e.target.value)}  value={input} type="text" placeholder='Enter a prompt here' />
->>>>>>> cfa4035e74a119864e9e10ce535155730bab1a4b
                 <div>
                   <img src={assets.gallery_icon} alt="" />
                   <img src={assets.mic_icon} alt="" />
